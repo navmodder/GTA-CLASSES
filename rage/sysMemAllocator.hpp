@@ -1,9 +1,9 @@
 #pragma once
-#include <cstddef>
-#include "gta/tls_context.hpp"
-#include "cage/RTTI.hpp"
-namespace rage
-{
+
+#include <script/tlsContext.hpp>
+#include <base/atRTTI.hpp>
+
+namespace rage {
 	class sysMemAllocator : public atRTTI<sysMemAllocator> {
 	public:
 		virtual ~sysMemAllocator() = 0;
@@ -36,7 +36,7 @@ namespace rage
 		}
 		static sysMemAllocator** getPointer() {
 			auto tls = uintptr_t(*(uintptr_t*)__readgsqword(0x58));
-			return reinterpret_cast<sysMemAllocator**>(tls + offsetof(rage::tlsContext, m_allocator));
+			return reinterpret_cast<sysMemAllocator**>(tls + offsetof(rage::tlsContext, m_tls_entry));
 		}
 		static sysMemAllocator* getEntry() {
 			auto tls = uintptr_t(*(uintptr_t*)__readgsqword(0x58));

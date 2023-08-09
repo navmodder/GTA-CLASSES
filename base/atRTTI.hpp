@@ -9,3 +9,10 @@
 								virtual bool _0x28(void**) = 0;\
 								virtual void destructor() = 0;\
 								public:
+namespace rage {
+	template <typename T>
+	class atRTTI {
+	public:
+		DEFINE_RAGE_RTTI(T)
+	};
+}

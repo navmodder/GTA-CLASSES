@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "script/tlsContext.hpp"
+#include <rage/sysMemAllocator.hpp>
 
 namespace rage
 {
