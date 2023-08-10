@@ -111,4 +111,5 @@ public:
     uint16_t m_ability_flag; //0x058B
     char pad_058D[26]; //0x058D
 }; //Size: 0x05A7
-static_assert(sizeof(CVehicleModelInfo) == 0x5A7); #pragma pack(pop)
+static_assert(sizeof(CVehicleModelInfo) == 0x5A7);
+#pragma pack(pop)
