@@ -4,8 +4,8 @@
 #include <ostream>
 #include <vector>
 
-#include "script/tlsContext.hpp"
-#include <rage/sysMemAllocator.hpp>
+#include "gtav_classes-src/script/tlsContext.hpp"
+#include <gtav_classes-src/rage/sysMemAllocator.hpp>
 
 namespace rage
 {

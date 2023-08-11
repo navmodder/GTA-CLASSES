@@ -1,7 +1,7 @@
 #pragma once
 
 #include <cstdint>
-#include "rage/vector.hpp"
+#include "gtav_classes-src/rage/vector.hpp"
 
 #pragma pack(push, 1)
 class ClonedTakeOffPedVariationInfo

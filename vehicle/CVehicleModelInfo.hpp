@@ -1,7 +1,7 @@
 #pragma once
 
 #include "../base/CBaseModelInfo.hpp"
-#include "vehicle/CVehicleModelInfoLayout.hpp"
+#include "gtav_classes-src/vehicle/CVehicleModelInfoLayout.hpp"
 
 #include <cstdint>
 

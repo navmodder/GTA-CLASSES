@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <cstddef>
 #include "rlGamerHandle.hpp"
-#include "network/netPeerAddress.hpp"
+#include "gtav_classes-src/network/netPeerAddress.hpp"
 
 namespace rage
 {
