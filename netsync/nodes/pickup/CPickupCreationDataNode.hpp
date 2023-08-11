@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdint>
-#include "netsync/CProjectBaseSyncDataNode.hpp"
-#include "script/CGameScriptObjInfo.hpp"
+#include "gtav_classes-src/netsync/CProjectBaseSyncDataNode.hpp"
+#include "gtav_classes-src/script/CGameScriptObjInfo.hpp"
 
 #pragma pack(push, 8)
 class CPickupCreationDataNode : CProjectBaseSyncDataNode
