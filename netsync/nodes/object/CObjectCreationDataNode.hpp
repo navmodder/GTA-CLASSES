@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdint>
-#include "gtav_classes-src/rage/vector.hpp"
-#include "gtav_classes-src/netsync/CProjectBaseSyncDataNode.hpp"
+#include "rage/vector.hpp"
+#include "netsync/CProjectBaseSyncDataNode.hpp"
 
 #pragma pack(push, 4)
 class CObjectCreationDataNode : CProjectBaseSyncDataNode
