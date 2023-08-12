@@ -1,7 +1,7 @@
 #pragma once
 
-#include <gtav_classes-src/script/tlsContext.hpp>
-#include <gtav_classes-src/base/atRTTI.hpp>
+#include <script/tlsContext.hpp>
+#include <base/atRTTI.hpp>
 
 namespace rage {
 	class sysMemAllocator : public atRTTI<sysMemAllocator> {

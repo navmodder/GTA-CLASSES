@@ -1,6 +1,6 @@
 #pragma once
 #include "../CPedComponents.hpp"
-#include "gtav_classes-src/netsync/CProjectBaseSyncDataNode.hpp"
+#include "netsync/CProjectBaseSyncDataNode.hpp"
 
 #pragma pack(push, 4)
 class CPlayerAppearanceDataNode : CSyncDataNodeInfrequent

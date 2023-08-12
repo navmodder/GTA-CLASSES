@@ -1,6 +1,6 @@
 #pragma once
 #include <cstdint>
-#include "gtav_classes-src/netsync/CProjectBaseSyncDataNode.hpp"
+#include "netsync/CProjectBaseSyncDataNode.hpp"
 
 enum eVehicleGadgetType : uint32_t
 {
