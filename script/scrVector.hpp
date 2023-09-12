@@ -95,7 +95,37 @@ public:
 		: x(x), y(y)
 	{
 	}
+	Vector2 operator*(const Vector2& other)
+	{
+		Vector2 vec;
+		vec.x = this->x * other.x;
+		vec.y = this->y * other.y;
+		return vec;
+	}
 
+	Vector2 operator*(const float& other)
+	{
+		Vector2 vec;
+		vec.x = this->x * other;
+		vec.y = this->y * other;
+		return vec;
+	}
+
+	Vector2 operator/(const Vector2& other)
+	{
+		Vector2 vec;
+		vec.x = this->x / other.x;
+		vec.y = this->y / other.y;
+		return vec;
+	}
+
+	Vector2 operator/(const float& other)
+	{
+		Vector2 vec;
+		vec.x = this->x / other;
+		vec.y = this->y / other;
+		return vec;
+	}
 public:
 	alignas(8) float x;
 	alignas(8) float y;
