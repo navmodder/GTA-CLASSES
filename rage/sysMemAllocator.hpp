@@ -47,4 +47,4 @@ namespace rage {
 			return reinterpret_cast<sysMemAllocator**>(tls + offsetof(rage::tlsContext, m_tls_entry));
 		}
 	};
-}
+} // head hurts
